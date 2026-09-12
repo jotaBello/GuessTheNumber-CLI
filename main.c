@@ -26,6 +26,7 @@ void play_game(void)
     {
         printf("Type your guess: ");
 
+        // Receive user guess.
         if (scanf("%d", &user_guess) != 1 || getchar() != '\n')
         {
             printf("Please enter a valid number.\n");
