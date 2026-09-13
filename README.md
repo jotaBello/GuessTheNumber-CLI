@@ -11,7 +11,7 @@ A simple command-line guessing game where the player tries to guess a random num
 Clone the repository and compile it:
 
 ```bash
-git clone https://github.com/tu-usuario/GuessTheNumber-CLI.git
+git clone https://github.com/jotaBello/GuessTheNumber-CLI.git
 cd GuessTheNumber-CLI
 make
 ```
