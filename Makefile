@@ -2,11 +2,12 @@ CC = gcc
 CFLAGS = -O2 -Wall -Wextra -std=c11
 
 TARGET = guessthenumber
+SOURCE = ./src/main.c
 
 all: $(TARGET)
 
-$(TARGET): main.c
-	$(CC) $(CFLAGS) main.c -o $(TARGET)
+$(TARGET): $(SOURCE)
+	$(CC) $(CFLAGS) $(SOURCE) -o $(TARGET)
 
 run: $(TARGET)
 	./$(TARGET)
