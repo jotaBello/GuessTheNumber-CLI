@@ -2,6 +2,10 @@
 
 A simple command-line guessing game where the player tries to guess a random number.
 
+## Demo
+
+![GuessTheNumber CLI demo](assets/demo.gif)
+
 ## Build and run
 
 Clone the repository and compile it:
