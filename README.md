@@ -4,7 +4,7 @@ A simple command-line guessing game where the player tries to guess a random num
 
 ## Demo
 
-![GuessTheNumber CLI demo](assets/demo.gif)
+<img src="assets/demo.gif" height="250">
 
 ## Build and run
 
